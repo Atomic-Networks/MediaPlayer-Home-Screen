@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+.Logo {
+    padding-top: 5vh;
+    padding-left: 12.5vw;
+    width: 75vw;
+}
+
+.Logo h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.Logo img {
+    display: block;
+    width: 50%;
+    margin: auto;
+    max-width: 20vh;
+}
+
+.Options {
+    width: 80vw;
+    max-width: 50rem;
+    height: 50vh;
+    background-color: #1E1E1E;
+    border-radius: 2rem;
+    border: #313131 1px solid;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+
+    grid-row: auto;
+    grid-column: auto;
+    padding: 1rem;
+}
+
+.Options a {
+    text-decoration: none;
+}
+
+.Options button {
+    border-radius: 1rem;
+    border: none;
+    width: calc(100% / 3 - 5px * 3);
+    height: calc(50% - 5px * 3);
+    transition: filter 0.2s;
+
+    margin: 5px;
+    
+    color: white;
+    font-size: 75px;
+    
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Options button:hover {
+    filter: brightness(75%);
+}
+
+.Options #Youtube {
+    background-color: #CD201F;
+}
+
+.Options #Twitch {
+    background-color: #8956FB;
+}
+
+.Options #SoundCloud {
+    background-color: #ff7700;
+}
+
+.Options #Reddit {
+    background-color: #FF5700;
+}
+
+.Options #Reddit-Movie {
+    background-color: #FF5700;
+}
+
